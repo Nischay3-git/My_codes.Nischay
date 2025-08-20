@@ -19,6 +19,9 @@ int main()
     case 4:
         printf("You entered 4");
         break;
+    default:
+        printf("Wrong input");
+        break;
     }
     return 0;
 }
