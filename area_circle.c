@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
-
-    float r= 5;
-    printf("%f",3.14*r*r);
+    float PI=3.14,r;
+    printf("Enter the value of radius: ");
+    scanf("%f".&r);
+    printf("%f",PI*r*r);
     return 0;
+
 }
