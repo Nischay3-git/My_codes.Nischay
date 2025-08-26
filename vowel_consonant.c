@@ -14,7 +14,7 @@ int main(){
     else
     {
         printf("%c is a consonant",ch);
-
     }
     return 0;
 }
+//We could also equate the characters in the if(conditions)  
