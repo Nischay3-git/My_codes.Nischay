@@ -1,3 +1,4 @@
+//checks whether a number is prime or not
 #include <stdio.h>
 int main()
 {
@@ -20,4 +21,5 @@ int main()
         printf("%d is prime",n);
     return 0;
     }
+
 }  
