@@ -1,12 +1,14 @@
-# include <stdio.h>
-int main(){
-    //program to print 10 to 20 when initial loop counter is initialised to 0
-    int i=0;
-    for(i=0;i<=20;i++)
-    {   
-        while(i>=10){ 
-            printf("%d\n",i);
-        }
-        i++;}
+#include <stdio.h>
+int main() {
+    int i = 0;
+    // First, increment i until it reaches 10
+    while (i < 10) {
+        i++;
+    }
+    // Now print from 10 to 20
+    while (i <= 20) {
+        printf("%d\n", i);
+        i++;
+    }
     return 0;
 }
