@@ -1,3 +1,4 @@
+// C program to print multiplication table in reverse order
 #include <stdio.h>
 int main ()
 {
@@ -7,4 +8,5 @@ int main ()
     {
         printf("%d x %d = %d\n", n,i,(n*i));
     } 
+
 }
