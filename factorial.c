@@ -1,12 +1,20 @@
 #include <stdio.h>
 int main(){
-    int a,p=1;
-    printf("Enter the nth integer: ");
-    scanf("%d",&a);
-    for(int i=a;i>0;i--)
+    int n,fact=1;
+    scanf("%d",&n);
+    //USING FOR LOOP
+    // for(int i=n;i>=1;i--)
+    // {
+    //     fact*=i;    
+    // }
+
+    //USING WHILE LOOP
+    int i=n;
+    while(i>=1)
     {
-        p*=i;
+        fact*=i;  
+        i--;  
     }
-    printf("The product is: %d",p);
+    printf("The factorial is %d",fact);
     return 0;
 }
