@@ -1,3 +1,4 @@
+//sum of n Natural numbers using various while,do-while, and for loop 
 #include <stdio.h>
 int main(){
     int sum=0;
@@ -33,4 +34,5 @@ int main(){
 
     printf("%d",sum);
     return 0;
+
 }
